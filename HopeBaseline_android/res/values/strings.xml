@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">验房</string>
+    <string name="pull_to_refresh_refreshing_label">加载中&#8230;</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+	<string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+	<string name="pull_to_refresh_loadmore">加载更多</string>
+	<string name="pull_to_refresh_loadmore_over">最后一页</string>
+	
+	
+	<!-- IM 新增 -->
+    <string name="prompt">提醒</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="check_network">请检查网络</string>
+    <string name="operation">操作</string>
+    <string name="im_msg_menu_copy">复制</string>
+    <string name="im_msg_menu_delete">删除</string>
+    <string name="im_msg_menu_share">分享</string>
+    <string name="im_msg_menu_resend">重发</string>
+    <string name="im_msg_menu_transfer">转发</string>
+    <string name="im_msg_menu_transfer_detail">item中的标签，实际内容</string>
+    <string name="message_sending">发送中</string>
+    <string name="message_sent">已发送</string>
+    <string name="message_sent_unread">已送达</string>
+    <string name="message_sent_read">对方已读</string>
+    <string name="voip_am_string">上午%1$s</string>
+    <string name="voip_af_string">下午%1$s</string>
+    <string name="voip_detail_time">%1$s:%2$s</string>
+    <string name="voip_yesterday">昨天</string>
+    <string name="voip_year_string">%1$s-%2$s-%3$s</string>
+    <string name="year_string">%1$s-%2$s-%3$s</string>
+    <string name="one_second">%1$s 秒前</string>
+    <string name="before_second">%1$s 秒前</string>
+    <string name="one_minute">%1$s 分钟前</string>
+    <string name="before_minute">%1$s 分钟前</string>
+    <string name="am_string">上午%1$s</string>
+    <string name="af_string">下午%1$s</string>
+    <string name="ev_string">晚上%1$s</string>
+    <string name="before_one_day">昨天 %1$s</string>
+    <string name="date_string">%1$s-%2$s</string>
+	
+</resources>

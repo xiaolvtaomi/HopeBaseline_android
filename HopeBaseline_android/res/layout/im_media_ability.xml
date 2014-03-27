@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:gravity="center_horizontal" android:layout_marginTop="150dip"
+	android:layout_marginBottom="53dip" android:orientation="vertical">
+	<LinearLayout android:id="@+id/media_container"
+		android:layout_width="196dip" android:layout_height="196dip"
+		android:background="@drawable/im_bg_voice" android:gravity="center_horizontal"
+		android:longClickable="true" android:layout_marginTop="150dip"
+		android:layout_marginBottom="53dip">
+		<LinearLayout android:layout_width="98dip" android:id="@+id/left"
+			android:layout_height="fill_parent" android:gravity="center_horizontal"
+			android:orientation="vertical" android:layout_weight="0.5">
+			<ImageView android:id="@+id/img_mic" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="27dp"
+				android:src="@drawable/im_icon_mic" />
+			<ImageView android:layout_width="wrap_content" android:id="@+id/volumn_bar"
+				android:layout_height="wrap_content" android:src="@drawable/im_voice_1"
+				android:layout_marginTop="10dip" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="98dp" android:id="@+id/right"
+			android:layout_height="196dp" android:gravity="center"
+			android:orientation="vertical" android:longClickable="true"
+			android:layout_weight="0.5" android:visibility="gone">
+			<ImageView android:layout_width="wrap_content" android:id="@+id/big_cancel"
+				android:layout_height="wrap_content" android:src="@drawable/im_stop_big"
+				android:layout_gravity="center" />
+			<TextView android:layout_width="wrap_content" android:id="@+id/cancel_text"
+				android:layout_height="wrap_content" android:layout_gravity="center"
+				android:visibility="gone" android:layout_marginTop="23dip" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/time_layout"
+		android:layout_width="wrap_content" android:visibility="gone"
+		android:layout_height="wrap_content" android:layout_marginBottom="20dip"
+		android:gravity="center" android:background="@drawable/im_bg_second">
+		<TextView android:id="@+id/time" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:singleLine="true"
+			android:textColor="#ffffff" 
+			 android:textSize="16dip"
+			 />
+	</LinearLayout>
+</LinearLayout>
